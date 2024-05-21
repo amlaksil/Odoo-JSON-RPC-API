@@ -1,0 +1,16 @@
+{
+  "jsonrpc": "2.0",
+  "method": "call",
+  "params": {
+    "service": "object",
+    "method": "execute",
+    "args": [
+      "rd-demo",
+      2,
+      "admin",
+			"hr.employee",
+			"unlink",
+			[38]
+		]
+  }
+}

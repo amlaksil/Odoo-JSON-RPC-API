@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "method": "call",
+  "params": {
+    "service": "object",
+    "method": "execute",
+    "args": [
+      "rd-demo",
+      2,
+      "admin",
+			"hr.employee",
+			"write",
+			[33, 34,25],
+			{"work_phone": "911"}
+		]
+  }
+}

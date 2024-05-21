@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "method": "call",
+  "params": {
+    "service": "object",
+    "method": "execute",
+    "args": [
+      "rd-demo",
+      2,
+      "admin",
+      "hr.employee",
+      "create",
+      {
+				"company_id": 3,
+        "name": "Solomon",
+        "job_title": "Software Engineer",
+        "work_email": "solomon@ethiopianelectricutility.com",
+        "work_phone": "905",
+        "mobile_phone": "+4522245546"
+      }
+    ]
+  }
+}

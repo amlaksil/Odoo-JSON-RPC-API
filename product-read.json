@@ -1,0 +1,10 @@
+{
+  "jsonrpc": "2.0",
+  "method": "call",
+  "params": {
+    "service": "object",
+    "method": "execute",
+    "args": ["rd-demo", 2, "admin", "product.template", "search_read", [["company_id", "=", 3]], ["name"]]
+  },
+  "id": 1
+}
